@@ -1,0 +1,24 @@
+{
+  "name": "upload-to-github-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool to automate uploading projects to GitHub",
+  "main": "bin/cli.js",
+  "bin": {
+    "upload-to-github-cli": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "github",
+    "automation",
+    "upload"
+  ],
+  "author": "Mihir Solanki",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.6",
+    "simple-git": "^3.27.0"
+  }
+}
